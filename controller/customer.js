@@ -1,5 +1,4 @@
 const customermodel = require('../model/customerSchema');
-const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 module.exports = {
   newcutomer: async (req, res) => {
